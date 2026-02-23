@@ -12,7 +12,7 @@ This course covers the fundamentals of superconducting devices, from basic physi
 | **Materials** | Nb, NbN, NbTiN, high-Tc materials, selection criteria |
 | **Josephson Junctions** | Physics, I-V characteristics, types and fabrication |
 | **Analog Devices** | SQUIDs, parametric amplifiers, kinetic inductance devices |
-| **Digital Logic** | SFQ, RSFQ, ERSFQ, AQFP, circuit design |
+| **Digital Logic** | AQFP design (primary), *SFQ for I/O interfaces |
 | **Fabrication** | Thin films, lithography, process flows |
 | **Applications** | Quantum computing, sensors, HPC |
 
@@ -53,7 +53,7 @@ sce-futures/
 |------|--------|
 | **1** | Superconductivity fundamentals, materials, Josephson junctions |
 | **2** | Analog devices — SQUIDs, amplifiers, sensors |
-| **3** | Digital logic — SFQ families, circuit design, simulation |
+| **3** | Digital logic — AQFP design, *SFQ for I/O (PTL, async FIFOs) |
 | **4** | Fabrication, applications, project work |
 
 ## Contributing
