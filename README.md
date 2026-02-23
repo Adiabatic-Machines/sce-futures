@@ -14,7 +14,7 @@ This course covers the fundamentals of superconducting devices, from basic physi
 | **Analog Devices** | SQUIDs, parametric amplifiers, kinetic inductance devices |
 | **Digital Logic** | AQFP design (primary), *SFQ for I/O interfaces |
 | **Fabrication** | Thin films, lithography, process flows |
-| **Applications** | Quantum computing, sensors, HPC |
+| **Applications** | AI accelerators, system architecture, memory hierarchy |
 
 ## Repository Structure
 
@@ -54,7 +54,7 @@ sce-futures/
 | **1** | Superconductivity fundamentals, materials, Josephson junctions |
 | **2** | Analog devices — SQUIDs, amplifiers, sensors |
 | **3** | Digital logic — AQFP design, *SFQ for I/O (PTL, async FIFOs) |
-| **4** | Fabrication, applications, project work |
+| **4** | Fabrication, AI accelerator architecture, project work |
 
 ## Contributing
 
