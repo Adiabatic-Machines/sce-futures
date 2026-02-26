@@ -1,0 +1,59 @@
+site_name: SCE Futures
+site_description: Superconducting electronics course materials
+repo_url: https://github.com/AlexWynn-AM/sce-futures
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+      ignore_h1_titles: true
+
+nav:
+  - Home: index.md
+  - Lectures:
+    - "Introduction to Superconductivity": notebooks/01_introduction_superconductivity.ipynb
+    - "Materials & Properties": notebooks/02_materials_properties.ipynb
+    - "Josephson Junctions": notebooks/03_josephson_junctions.ipynb
+    - "Analog Devices": notebooks/04_analog_devices.ipynb
+    - "Digital Logic": notebooks/05_digital_logic.ipynb
+    - "Fabrication": notebooks/06_fabrication.ipynb
+    - "Applications": notebooks/07_applications.ipynb
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/extra.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
