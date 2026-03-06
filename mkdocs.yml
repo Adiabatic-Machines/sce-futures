@@ -32,13 +32,18 @@ plugins:
 nav:
   - Home: index.md
   - Lectures:
-    - "Introduction to Superconductivity": notebooks/01_introduction_superconductivity.ipynb
-    - "Materials & Properties": notebooks/02_materials_properties.ipynb
-    - "Josephson Junctions": notebooks/03_josephson_junctions.ipynb
-    - "Analog Devices": notebooks/04_analog_devices.ipynb
-    - "Digital Logic": notebooks/05_digital_logic.ipynb
-    - "Fabrication": notebooks/06_fabrication.ipynb
-    - "Applications": notebooks/07_applications.ipynb
+    - "1. Introduction to Superconductivity": notebooks/01_introduction_superconductivity.ipynb
+    - "2. Materials & Properties": notebooks/02_materials_properties.ipynb
+    - "3. Josephson Junctions": notebooks/03_josephson_junctions.ipynb
+    - "4. Fabrication": notebooks/04_fabrication.ipynb
+    - "5. Analog Devices": notebooks/05_analog_devices.ipynb
+    - "6. Digital Logic": notebooks/06_digital_logic.ipynb
+    - "7. Packaging & I/O": notebooks/07_packaging_io.ipynb
+    - "8. Testing": notebooks/08_testing.ipynb
+    - "9. Applications": notebooks/09_applications.ipynb
+    - "10. Transformer Architectures": notebooks/10_transformer_architectures.ipynb
+    - "11. Systolic Arrays & Hardware": notebooks/11_systolic_arrays_hardware.ipynb
+    - "12. Cryogenic Systems": notebooks/12_cryogenic_systems.ipynb
 
 extra_css:
   - stylesheets/extra.css
