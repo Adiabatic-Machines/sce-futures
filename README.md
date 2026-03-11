@@ -1,6 +1,6 @@
 # SCE Futures: Superconductor Electronics
 
-An introduction to superconductor electronics for new AM team members.
+An introduction to superconductor electronics.
 
 ## What You'll Learn
 
@@ -58,4 +58,4 @@ sce-futures/
 
 ## Contributing
 
-Internal contributions welcome. Please follow the established notebook format when adding new content.
+Contributions welcome. Please follow the established notebook format when adding new content.
