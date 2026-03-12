@@ -39,11 +39,11 @@ nav:
     - "5. Analog Devices": notebooks/05_analog_devices.ipynb
     - "6. Digital Logic": notebooks/06_digital_logic.ipynb
     - "7. Packaging & I/O": notebooks/07_packaging_io.ipynb
-    - "8. Testing": notebooks/08_testing.ipynb
-    - "9. Applications": notebooks/09_applications.ipynb
-    - "10. Transformer Architectures": notebooks/10_transformer_architectures.ipynb
-    - "11. Systolic Arrays & Hardware": notebooks/11_systolic_arrays_hardware.ipynb
-    - "12. Cryogenic Systems": notebooks/12_cryogenic_systems.ipynb
+    - "8. Cryogenic Systems": notebooks/08_cryogenic_systems.ipynb
+    - "9. Testing": notebooks/09_testing.ipynb
+    - "10. Applications": notebooks/10_applications.ipynb
+    - "11. Transformer Architectures": notebooks/11_transformer_architectures.ipynb
+    - "12. Systolic Arrays & Hardware": notebooks/12_systolic_arrays_hardware.ipynb
 
 extra_css:
   - stylesheets/extra.css
