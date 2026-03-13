@@ -32,7 +32,7 @@ plugins:
 nav:
   - Home: index.md
   - Lectures:
-    - "0. Executive Overview": notebooks/00_executive_overview.ipynb
+    - "0. Why Superconducting Electronics?": notebooks/00_executive_overview.ipynb
     - "Part I: Foundations":
       - "1. Introduction to Superconductivity": notebooks/01_introduction_superconductivity.ipynb
       - "2. Materials & Properties": notebooks/02_materials_properties.ipynb
