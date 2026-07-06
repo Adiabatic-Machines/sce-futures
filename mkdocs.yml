@@ -2,7 +2,8 @@ site_name: SCE Futures
 site_description: Introduction to superconductor electronics — from Josephson junctions to AI accelerator architectures. By Adiabatic Machines.
 site_author: Adiabatic Machines
 copyright: "&copy; 2026 Adiabatic Machines"
-repo_url: https://github.com/AlexWynn-AM/sce-futures
+site_url: https://adiabatic-machines.github.io/sce-futures/
+repo_url: https://github.com/Adiabatic-Machines/sce-futures
 
 theme:
   name: material
