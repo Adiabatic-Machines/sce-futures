@@ -18,6 +18,16 @@ Review target: 45 minutes. This packet covers task 0200's course structure work 
 - AQFP is explained through gradual switching near a local energy minimum. Energy-recovery, recycling, borrow/return, and returned-to-clock-network stories were removed.
 - Device measurements, thermodynamic values, system models, and roadmap statements are now labeled as different evidence classes.
 
+## Claude Sonnet pre-review closure
+
+The first independent review found four material issues and five smaller inconsistencies. This revision closes each one:
+
+- Lecture 14 no longer renders unsupported `70× lower power` or `10,000× lower energy` claims. Its comparison cell now plots the three named static-inclusive model ranges against a host-inclusive NVIDIA B200, dense FP4.
+- Lecture 10 puts the facility hazard assessment at the primary oxygen-monitoring guidance, infrastructure table, and checklist.
+- Lecture 11A removes the unsourced `~4%/month` yield statement and restores the missing third compressor-isolation technique with a protective-grounding warning.
+- Lectures 02, 05, 08, 09, and 11B correct the BCS constant, an illustrative-input contradiction, a canned heading, a dropped technical-note pointer, and vendor-endorsement wording.
+- A second sweep removed the remaining unqualified architecture multipliers from Lecture 14's code and rendered output.
+
 ## Side-by-side samples by course module
 
 | Surface | Before | After | Why it matters |
@@ -55,7 +65,7 @@ Seven notebooks contain evidenced code changes and were executed in full with ze
 | 08 | Labeled defect-density, layer-count, and area inputs as illustrative rather than measured foundry yield. |
 | 10 | Scoped oxygen-monitoring language to the facility hazard assessment and local requirements. |
 | 11A | Removed an unsourced process-improvement rate and labeled yield inputs and troubleshooting values by evidence state. |
-| 14 | Replaced stale system numbers with current modeled corners and removed an unsupported total-power claim. |
+| 14 | Replaced stale system numbers and two unsupported comparison cells with current named model corners and evidence boundaries. |
 
 Code sources and outputs in the other eight original notebooks are byte-for-byte unchanged from the branch base. Lecture 11B contains moved prose only and no code. All pre-edit URLs remain; three primary-source DOI links were added. The explicit pre-edit equations remain, including the kinetic-inductance scaling relationship.
 
@@ -88,9 +98,9 @@ Code sources and outputs in the other eight original notebooks are byte-for-byte
 - Eight untouched original notebooks preserve code sources and outputs exactly.
 - Notebook schema audit passes at nbformat 4.4 with no cell IDs introduced.
 - All pre-edit external URLs are retained. Seven of eight current external links return HTTP 2xx in the automated check; the AIP DOI returns HTTP 403 to the bot but resolves to the indexed Takeuchi paper.
-- Markdown pattern counts: “key insight” 12 → 1; em dashes 84 → 0; colon-form H2/H3 subtitles 57 → 10. This is a reduction check, not a zero-count style rule.
+- Notebook-markdown pattern counts: “key insight” 12 → 0; em dashes 84 → 0; colon-form H2/H3 subtitles 56 → 10. Across README, course home, and notebook prose together, em dashes are 86 → 4. This is a reduction check, not a zero-count style rule.
 - D-0057 scan finds no energy-recovery, recycling, borrow/return, or returned-to-clock-network framing.
-- Stale “11.8–14.7×,” “~100× system,” and generic “~1000× cooling” prose is absent.
+- Stale “11.8–14.7×,” “~100× system,” generic “~1000× cooling,” “70× lower power,” and “10,000× lower energy” claims are absent.
 
 ## Reviewer sign-off
 
