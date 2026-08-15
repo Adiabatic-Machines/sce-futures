@@ -57,7 +57,8 @@ nav:
     - "Part III: Systems Integration":
       - "9. Packaging & I/O": notebooks/09_packaging_io.ipynb
       - "10. Cryogenic Systems": notebooks/10_cryogenic_systems.ipynb
-      - "11. Testing": notebooks/11_testing.ipynb
+      - "11A. Testing": notebooks/11_testing.ipynb
+      - "11B. Test Equipment & Vendor Guide": notebooks/11b_test_equipment_vendor_guide.ipynb
     - "Part IV: Applications":
       - "12. Classical Applications": notebooks/12_classical_applications.ipynb
       - "13. AI Workloads & Dataflow": notebooks/13_ai_workloads_dataflow.ipynb

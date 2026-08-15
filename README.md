@@ -1,10 +1,13 @@
 # SCE Futures: Superconductor Electronics
 
-An introduction to superconductor electronics.
+An instructor-led path from superconductivity fundamentals to devices,
+fabrication, cryogenic integration, testing, and accelerator architecture. Each
+lecture states its learning objectives, ends with a summary and self-check, and
+links directly to the next part of the course.
 
 ## What You'll Learn
 
-This course covers the fundamentals of superconducting devices, from basic physics to circuit design and fabrication:
+The course moves from physical principles to complete-system reasoning:
 
 | Module | Topics |
 |--------|--------|
@@ -14,38 +17,44 @@ This course covers the fundamentals of superconducting devices, from basic physi
 | **Analog Devices** | SQUIDs, parametric amplifiers, kinetic inductance devices |
 | **Digital Logic** | AQFP design (primary), *SFQ for I/O interfaces |
 | **Fabrication** | Thin films, lithography, process flows |
-| **Applications** | AI accelerators, system architecture, memory hierarchy |
+| **Systems** | Packaging, cryogenics, test methodology, equipment selection |
+| **Applications** | Sensors, metrology, quantum control, AI workloads and accelerator architecture |
 
 ## Repository Structure
 
 ```
 sce-futures/
 ├── notebooks/          # Course content (Jupyter notebooks)
+│   ├── 00_executive_overview.ipynb
 │   ├── 01_introduction_superconductivity.ipynb
-│   ├── 02_materials_properties.ipynb
-│   ├── 03_josephson_junctions.ipynb
-│   ├── 04_analog_devices.ipynb
-│   ├── 05_digital_logic.ipynb
-│   ├── 06_fabrication.ipynb
-│   └── 07_applications.ipynb
-├── examples/           # Example designs and simulations
-└── designs/            # Your work goes here
+│   ├── ...
+│   ├── 11_testing.ipynb
+│   ├── 11b_test_equipment_vendor_guide.ipynb
+│   └── 14_sce_accelerator_architecture.ipynb
+├── docs/               # MkDocs home and published assets
+├── mkdocs.yml          # Published navigation
+└── requirements-docs.txt
 ```
 
 ## Getting Started
 
-1. Clone this repository
+1. Clone this repository.
 2. Set up your Python environment:
    ```bash
    python -m venv .venv
    source .venv/bin/activate
-   pip install -r notebooks/requirements.txt
+   python -m pip install -r notebooks/requirements.txt
    ```
-3. Launch Jupyter:
+3. Launch Jupyter for executable notebooks:
    ```bash
    jupyter lab notebooks/
    ```
-4. Start with `01_introduction_superconductivity.ipynb`
+4. Start with `00_executive_overview.ipynb`, then follow the previous/next
+   links in each lecture.
+
+To preview the published course instead, install `requirements-docs.txt` and
+run `python -m mkdocs serve`. MkDocs renders stored notebook outputs; it does
+not execute the code cells.
 
 ## Course Overview
 
@@ -58,4 +67,7 @@ sce-futures/
 
 ## Contributing
 
-Contributions welcome. Please follow the established notebook format when adding new content.
+Open an issue before changing technical claims, equations, or system-level
+comparisons. Contributions should preserve the established objective, summary,
+self-check, and navigation pattern. Vendor examples and fast-moving system
+numbers must carry their source, date, and evidence state.

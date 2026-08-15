@@ -1,6 +1,9 @@
 # SCE Futures
 
-Welcome to the SCE Futures superconducting electronics course materials.
+SCE Futures builds a working vocabulary for superconducting electronics and
+then asks you to use it: explain the mechanism, read the evidence, perform the
+calculation, and identify what a device result does—or does not—say about a
+complete system.
 
 ## Lectures
 
@@ -21,7 +24,8 @@ Welcome to the SCE Futures superconducting electronics course materials.
 ### Part III: Systems Integration
 9. [Packaging & I/O](notebooks/09_packaging_io.ipynb) - Chip carriers, bonding, wiring, interconnects
 10. [Cryogenic Systems](notebooks/10_cryogenic_systems.ipynb) - Cryostats, helium management, and safety
-11. [Testing](notebooks/11_testing.ipynb) - Test methodology, margins, and equipment
+11A. [Testing](notebooks/11_testing.ipynb) - Test methodology, margins, grounding, and measurement practice
+11B. [Test Equipment & Vendor Guide](notebooks/11b_test_equipment_vendor_guide.ipynb) - Requirement-driven equipment selection and examples
 
 ### Part IV: Applications
 12. [Classical Applications](notebooks/12_classical_applications.ipynb) - High-performance computing and beyond
@@ -33,8 +37,12 @@ Welcome to the SCE Futures superconducting electronics course materials.
 To run the notebooks locally, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/AlexWynn-AM/sce-futures.git
+git clone https://github.com/Adiabatic-Machines/sce-futures.git
 cd sce-futures
-pip install -r notebooks/requirements.txt
+python -m pip install -r notebooks/requirements.txt
 jupyter lab
 ```
+
+Start with Lecture 0 and follow the in-lecture previous/next links. To render
+the published course without executing notebook code, install
+`requirements-docs.txt` and run `python -m mkdocs serve`.
