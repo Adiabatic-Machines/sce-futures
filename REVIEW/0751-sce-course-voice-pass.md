@@ -74,11 +74,11 @@ Code sources and outputs in the other eight original notebooks are byte-for-byte
 | Stop | Review focus | Suggested anchor |
 | --- | --- | --- |
 | 00 | Evidence taxonomy and current system corners | “Quantitative anchors” |
-| 01 | Superconductivity explanation and device-energy chart | “Device Energy Is Not System Energy” |
+| 01 | Superconductivity explanation and device-energy chart | “AQFP in this course” |
 | 02 | Materials tradeoffs without canned transitions | Learning objectives and summary |
 | 03 | DC/AC Josephson explanations and notation | Josephson relations |
 | 04 | SQUID sensitivity and retained kinetic-inductance equations | “Kinetic-inductance scaling” |
-| 05 | AQFP mechanism under D-0057 | “How AQFP switches” |
+| 05 | AQFP mechanism under D-0057 | “Adiabatic switching” |
 | 06 | Memory limitations and clocked-state framing | Summary and self-check |
 | 07 | Timing, path balancing, and integration language | Pipeline balancing |
 | 08 | SFQ5ee stack and illustrative yield model | “Yield considerations” |
@@ -97,7 +97,7 @@ Code sources and outputs in the other eight original notebooks are byte-for-byte
 - Seven code-changed notebooks execute completely with zero error outputs.
 - Eight untouched original notebooks preserve code sources and outputs exactly.
 - Notebook schema audit passes at nbformat 4.4 with no cell IDs introduced.
-- All pre-edit external URLs are retained. Seven of eight current external links return HTTP 2xx in the automated check; the AIP DOI returns HTTP 403 to the bot but resolves to the indexed Takeuchi paper.
+- All pre-edit external URLs are retained. Six of seven current external links return HTTP 2xx in the automated check; the AIP DOI returns HTTP 403 to the bot but resolves to the indexed Takeuchi paper.
 - Notebook-markdown pattern counts: “key insight” 12 → 0; em dashes 84 → 0; colon-form H2/H3 subtitles 56 → 10. Across README, course home, and notebook prose together, em dashes are 86 → 4. This is a reduction check, not a zero-count style rule.
 - D-0057 scan finds no energy-recovery, recycling, borrow/return, or returned-to-clock-network framing.
 - Stale “11.8–14.7×,” “~100× system,” generic “~1000× cooling,” “70× lower power,” and “10,000× lower energy” claims are absent.
