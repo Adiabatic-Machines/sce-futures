@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SCE Futures course voice and fact pass overview</title>
+  <desc id="desc">A reviewer overview showing sixteen learner documents, seven executed notebooks, no D-0057 narrative violations, four course parts, and three modeled wall-energy comparison corners.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#10233f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4d65ff"/>
+      <stop offset="1" stop-color="#8d7cff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#02060c" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { font-size: 18px; font-weight: 700; letter-spacing: 3px; }
+      .title { font-size: 64px; font-weight: 700; letter-spacing: -1.8px; }
+      .subtitle { font-size: 24px; font-weight: 400; }
+      .metric { font-size: 42px; font-weight: 700; }
+      .metric-label { font-size: 18px; font-weight: 500; }
+      .card-title { font-size: 23px; font-weight: 700; }
+      .card-copy { font-size: 17px; font-weight: 400; }
+      .corner { font-size: 19px; font-weight: 700; }
+      .corner-note { font-size: 15px; font-weight: 500; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1435" cy="-50" r="310" fill="#4d65ff" opacity="0.09"/>
+  <circle cx="1530" cy="710" r="250" fill="#66d9c7" opacity="0.06"/>
+  <path d="M90 98 H235" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="90" y="73" class="sans label" fill="#91a2c5">SCE FUTURES  /  HUMAN VOICE PASS</text>
+  <text x="90" y="166" class="sans title" fill="#f7f9ff">16 learner surfaces,</text>
+  <text x="90" y="236" class="sans title" fill="#f7f9ff">one coherent teaching voice.</text>
+  <text x="92" y="281" class="sans subtitle" fill="#b9c6df">Clearer evidence boundaries. Stronger course structure. A 45-minute review path.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="326" width="430" height="118" rx="18" fill="#142b4a" stroke="#294568"/>
+    <rect x="540" y="326" width="430" height="118" rx="18" fill="#142b4a" stroke="#294568"/>
+    <rect x="990" y="326" width="520" height="118" rx="18" fill="#142b4a" stroke="#294568"/>
+  </g>
+  <text x="120" y="383" class="sans metric" fill="#ffffff">16</text>
+  <text x="120" y="415" class="sans metric-label" fill="#b9c6df">learner documents in the rendered course</text>
+  <text x="570" y="383" class="sans metric" fill="#66d9c7">7</text>
+  <text x="570" y="415" class="sans metric-label" fill="#b9c6df">code-changed notebooks executed, 0 errors</text>
+  <text x="1020" y="383" class="sans metric" fill="#8d7cff">0</text>
+  <text x="1020" y="415" class="sans metric-label" fill="#b9c6df">energy-recovery narratives under D-0057</text>
+
+  <text x="90" y="498" class="sans label" fill="#91a2c5">COURSE ARC</text>
+  <g filter="url(#shadow)">
+    <rect x="90" y="522" width="335" height="166" rx="18" fill="#101f35" stroke="#294568"/>
+    <rect x="445" y="522" width="335" height="166" rx="18" fill="#101f35" stroke="#294568"/>
+    <rect x="800" y="522" width="335" height="166" rx="18" fill="#101f35" stroke="#294568"/>
+    <rect x="1155" y="522" width="355" height="166" rx="18" fill="#101f35" stroke="#294568"/>
+  </g>
+  <rect x="90" y="522" width="8" height="166" rx="4" fill="#4d65ff"/>
+  <rect x="445" y="522" width="8" height="166" rx="4" fill="#5f81ff"/>
+  <rect x="800" y="522" width="8" height="166" rx="4" fill="#66d9c7"/>
+  <rect x="1155" y="522" width="8" height="166" rx="4" fill="#8d7cff"/>
+  <text x="120" y="560" class="sans label" fill="#91a2c5">PART I</text>
+  <text x="120" y="597" class="sans card-title" fill="#ffffff">Foundations</text>
+  <text x="120" y="630" class="sans card-copy" fill="#b9c6df">Measurements, equations,</text>
+  <text x="120" y="655" class="sans card-copy" fill="#b9c6df">and evidence class stay distinct.</text>
+  <text x="475" y="560" class="sans label" fill="#91a2c5">PART II</text>
+  <text x="475" y="597" class="sans card-title" fill="#ffffff">Devices + circuits</text>
+  <text x="475" y="630" class="sans card-copy" fill="#b9c6df">AQFP switching is explained</text>
+  <text x="475" y="655" class="sans card-copy" fill="#b9c6df">without energy-bookkeeping lore.</text>
+  <text x="830" y="560" class="sans label" fill="#91a2c5">PART III</text>
+  <text x="830" y="597" class="sans card-title" fill="#ffffff">Systems integration</text>
+  <text x="830" y="630" class="sans card-copy" fill="#b9c6df">Testing splits into method</text>
+  <text x="830" y="655" class="sans card-copy" fill="#b9c6df">and a qualified vendor guide.</text>
+  <text x="1185" y="560" class="sans label" fill="#91a2c5">PART IV</text>
+  <text x="1185" y="597" class="sans card-title" fill="#ffffff">Applications</text>
+  <text x="1185" y="630" class="sans card-copy" fill="#b9c6df">Maturity and modeled outcomes</text>
+  <text x="1185" y="655" class="sans card-copy" fill="#b9c6df">replace promotional shorthand.</text>
+
+  <text x="90" y="742" class="sans label" fill="#91a2c5">CURRENT MODELED WALL-ENERGY CORNERS  /  SAME B200 BOUNDARY</text>
+  <g>
+    <rect x="90" y="770" width="410" height="82" rx="15" fill="#192b43" stroke="#3c526f"/>
+    <rect x="520" y="770" width="480" height="82" rx="15" fill="#4d65ff"/>
+    <rect x="1020" y="770" width="490" height="82" rx="15" fill="#223f52" stroke="#497687"/>
+    <text x="116" y="808" class="sans corner" fill="#ffffff">6.4–8.5×  Packaged downside</text>
+    <text x="116" y="833" class="sans corner-note" fill="#b9c6df">5 K / 980 W per W</text>
+    <text x="548" y="808" class="sans corner" fill="#ffffff">11.8–14.8×  Production</text>
+    <text x="548" y="833" class="sans corner-note" fill="#e8ebff">5 K / 400 W per W  •  modeled, not measured</text>
+    <text x="1048" y="808" class="sans corner" fill="#ffffff">15.7–19.5×  Plant upside</text>
+    <text x="1048" y="833" class="sans corner-note" fill="#b9c6df">5 K / 207 W per W</text>
+  </g>
+  <text x="90" y="883" class="sans card-copy" fill="#91a2c5">Review order: overview → fact lock → 16-stop scan → rendered spot-check → sign-off</text>
+  <text x="1510" y="883" text-anchor="end" class="sans label" fill="#66d9c7">TASKS 0200 + 0751</text>
+</svg>
